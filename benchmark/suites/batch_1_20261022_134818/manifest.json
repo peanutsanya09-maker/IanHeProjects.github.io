@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "experiment": {
+    "experiment_id": "batch_1",
+    "variable": "batch_size",
+    "optimizer": "adam",
+    "lr": "0.0001",
+    "weight_decay": "0",
+    "batch_size": "1",
+    "image_size": "256",
+    "seed": "0",
+    "epochs": "5",
+    "status": "planned",
+    "notes": "compare with lr_1e4; different update count and BatchNorm behavior"
+  },
+  "command": [
+    "D:\\Application\\conda\\envs\\unet\\python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "train_step.py",
+    "--train",
+    "--run-dir",
+    "D:\\Projects\\Pytorch_UNet\\benchmark\\runs\\batch_1_20261022_134818",
+    "--optimizer",
+    "adam",
+    "--lr",
+    "0.0001",
+    "--weight-decay",
+    "0",
+    "--batch-size",
+    "1",
+    "--image-size",
+    "256",
+    "--seed",
+    "0",
+    "--epochs",
+    "5"
+  ],
+  "run_dir": "benchmark\\runs\\batch_1_20261022_134818",
+  "selection": "validation only; no test evaluation"
+}

@@ -2,7 +2,7 @@
 lr_1e3,learning_rate,adam,0.001,0,2,256,0,5,completed,from random initialization; results: benchmark/suites/learning_rates_20261022_104847/results.csv
 lr_3e4,learning_rate,adam,0.0003,0,2,256,0,5,completed,from random initialization; results: benchmark/suites/learning_rates_20261022_104847/results.csv
 lr_1e4,learning_rate,adam,0.0001,0,2,256,0,5,completed,from random initialization; results: benchmark/suites/learning_rates_20261022_104847/results.csv
-batch_1,batch_size,adam,0.0001,0,1,256,0,5,planned,compare with lr_1e4; different update count and BatchNorm behavior
+batch_1,batch_size,adam,0.0001,0,1,256,0,5,completed,compare with lr_1e4; different update count and BatchNorm behavior; artifacts: benchmark/suites/batch_1_20261022_134818
 batch_4,batch_size,adam,0.0001,0,4,256,0,5,planned,compare with lr_1e4; record OOM if insufficient memory
 wd_1e5,weight_decay,adam,0.0001,0.00001,2,256,0,5,planned,compare with lr_1e4
 wd_1e4,weight_decay,adam,0.0001,0.0001,2,256,0,5,planned,compare with lr_1e4

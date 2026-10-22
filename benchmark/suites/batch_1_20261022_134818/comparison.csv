@@ -1,0 +1,3 @@
+﻿run_id,status,optimizer,lr,weight_decay,batch_size,image_size,seed,epochs_requested,epochs_completed,best_epoch,best_val_dice,val_loss_at_best,elapsed_seconds,peak_gpu_memory_mb,source,run_dir
+learning_rates_20261022_104847_lr_1e4,completed,adam,0.0001,0.0,2,256,0,5,5,5,0.8928685235408322,0.1909700195280861,577.2218919000006,1086.37939453125,automatic_training_log,benchmark\runs\learning_rates_20261022_104847_lr_1e4
+batch_1_20261022_134818,completed,adam,0.0001,0.0,1,256,0,5,5,4,0.846363364357852,0.25155704565399195,634.8371689,725.6083984375,automatic_training_log,benchmark\runs\batch_1_20261022_134818

@@ -1,5 +1,21 @@
 # U-Net benchmark 实验约定
 
+## 执行下一个计划实验
+
+```powershell
+python -m benchmark.run_next
+```
+
+每次只执行 `plan.csv` 中第一个 `planned` 实验，保存独立训练日志、环境、配置、权重与结果，并更新计划状态。失败记录为 `failed_or_interrupted`，不会自动重试；本入口只评估验证集，不追加测试集评估。
+
+完成 batch-size 实验后，与已有 batch=2 基线比较：
+
+```powershell
+python -m benchmark.compare_batch benchmark/runs/<run_id>
+```
+
+结果保存在对应 `benchmark/suites/<run_id>/`，含对比 CSV、验证曲线、指标图和报告。
+
 ## 固定条件
 
 - U-Net 结构保持不变；输入 RGB，输出背景/宠物两类。默认 256×256。
