@@ -1,0 +1,2 @@
+﻿test_count,test_loss,test_global_dice,test_global_iou,test_mean_image_dice,prediction_seconds
+3669,0.17825926383914154,0.8973769048051754,0.8138564380846908,0.886565247149328,60.15804399999979

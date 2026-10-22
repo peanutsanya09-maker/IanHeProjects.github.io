@@ -1,0 +1,52 @@
+训练集：2944；验证集：736
+图片：(2, 3, 256, 256)，torch.float32，范围 [0.012, 1.000]
+标签：(2, 256, 256)，torch.int64，类别值 [0, 1, 255]
+类别：0=背景，1=宠物，255=忽略；官方测试集未参与划分。
+开始训练，设备：cuda
+实验目录：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_1e3
+  batch 200/1472 | Loss 0.5850
+  batch 400/1472 | Loss 0.5324
+  batch 600/1472 | Loss 0.5076
+  batch 800/1472 | Loss 0.4925
+  batch 1000/1472 | Loss 0.4792
+  batch 1200/1472 | Loss 0.4673
+  batch 1400/1472 | Loss 0.4606
+Epoch 1/5 | Train Loss 0.4577 Dice 0.6625 | Val Loss 0.3956 Dice 0.7039
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_1e3\best.pth
+  batch 200/1472 | Loss 0.4010
+  batch 400/1472 | Loss 0.4012
+  batch 600/1472 | Loss 0.3961
+  batch 800/1472 | Loss 0.3934
+  batch 1000/1472 | Loss 0.3930
+  batch 1200/1472 | Loss 0.3891
+  batch 1400/1472 | Loss 0.3835
+Epoch 2/5 | Train Loss 0.3842 Dice 0.7430 | Val Loss 0.3648 Dice 0.7520
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_1e3\best.pth
+  batch 200/1472 | Loss 0.3770
+  batch 400/1472 | Loss 0.3678
+  batch 600/1472 | Loss 0.3597
+  batch 800/1472 | Loss 0.3570
+  batch 1000/1472 | Loss 0.3560
+  batch 1200/1472 | Loss 0.3518
+  batch 1400/1472 | Loss 0.3474
+Epoch 3/5 | Train Loss 0.3473 Dice 0.7753 | Val Loss 0.3171 Dice 0.7861
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_1e3\best.pth
+  batch 200/1472 | Loss 0.3307
+  batch 400/1472 | Loss 0.3302
+  batch 600/1472 | Loss 0.3293
+  batch 800/1472 | Loss 0.3282
+  batch 1000/1472 | Loss 0.3289
+  batch 1200/1472 | Loss 0.3232
+  batch 1400/1472 | Loss 0.3211
+Epoch 4/5 | Train Loss 0.3186 Dice 0.7979 | Val Loss 0.2855 Dice 0.8176
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_1e3\best.pth
+  batch 200/1472 | Loss 0.2933
+  batch 400/1472 | Loss 0.3019
+  batch 600/1472 | Loss 0.2963
+  batch 800/1472 | Loss 0.2936
+  batch 1000/1472 | Loss 0.2940
+  batch 1200/1472 | Loss 0.2911
+  batch 1400/1472 | Loss 0.2905
+Epoch 5/5 | Train Loss 0.2901 Dice 0.8204 | Val Loss 0.2816 Dice 0.8209
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_1e3\best.pth
+实验汇总：benchmark/results.csv；绘图：python plot_benchmark.py

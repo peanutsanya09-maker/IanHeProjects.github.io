@@ -1,0 +1,2 @@
+﻿run_id,status,optimizer,lr,weight_decay,batch_size,image_size,seed,epochs_requested,epochs_completed,best_epoch,best_val_dice,val_loss_at_best,elapsed_seconds,peak_gpu_memory_mb,source,run_dir
+historical_001,historical_import,adam,0.001,0,2,256,0,5,5,5,0.8054,0.3055,,,user pasted console log; config from original script; no timing or checkpoint provenance,benchmark/runs/historical_001

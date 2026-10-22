@@ -1,0 +1,5 @@
+Test images: 800/3669
+Test images: 1600/3669
+Test images: 2400/3669
+Test images: 3200/3669
+{'test_count': 3669, 'test_loss': 0.27131261314364, 'test_global_dice': 0.8252904136838194, 'test_global_iou': 0.7025484624432864, 'test_mean_image_dice': 0.8144475693919282, 'prediction_seconds': 63.846928500000104}

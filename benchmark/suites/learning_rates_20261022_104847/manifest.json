@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "rates": [
+    [
+      "lr_1e3",
+      0.001
+    ],
+    [
+      "lr_3e4",
+      0.0003
+    ],
+    [
+      "lr_1e4",
+      0.0001
+    ]
+  ],
+  "epochs": 5,
+  "seed": 0,
+  "selection": "highest validation global Dice; test not used for selection",
+  "unet_sha256": "7d234094c2a98931cc6006e54549f60a9fa43183af6ab886917165072615535d",
+  "runs": {
+    "lr_1e3": "benchmark\\runs\\learning_rates_20261022_104847_lr_1e3",
+    "lr_3e4": "benchmark\\runs\\learning_rates_20261022_104847_lr_3e4",
+    "lr_1e4": "benchmark\\runs\\learning_rates_20261022_104847_lr_1e4"
+  },
+  "best_by_validation": "learning_rates_20261022_104847_lr_1e4"
+}

@@ -1,0 +1,51 @@
+训练集：2944；验证集：736
+图片：(2, 3, 256, 256)，torch.float32，范围 [0.012, 1.000]
+标签：(2, 256, 256)，torch.int64，类别值 [0, 1, 255]
+类别：0=背景，1=宠物，255=忽略；官方测试集未参与划分。
+开始训练，设备：cuda
+实验目录：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_3e4
+  batch 200/1472 | Loss 0.5878
+  batch 400/1472 | Loss 0.5421
+  batch 600/1472 | Loss 0.5127
+  batch 800/1472 | Loss 0.4948
+  batch 1000/1472 | Loss 0.4795
+  batch 1200/1472 | Loss 0.4654
+  batch 1400/1472 | Loss 0.4553
+Epoch 1/5 | Train Loss 0.4516 Dice 0.6689 | Val Loss 0.3583 Dice 0.7625
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_3e4\best.pth
+  batch 200/1472 | Loss 0.3754
+  batch 400/1472 | Loss 0.3788
+  batch 600/1472 | Loss 0.3720
+  batch 800/1472 | Loss 0.3684
+  batch 1000/1472 | Loss 0.3665
+  batch 1200/1472 | Loss 0.3618
+  batch 1400/1472 | Loss 0.3571
+Epoch 2/5 | Train Loss 0.3577 Dice 0.7662 | Val Loss 0.3209 Dice 0.8044
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_3e4\best.pth
+  batch 200/1472 | Loss 0.3465
+  batch 400/1472 | Loss 0.3386
+  batch 600/1472 | Loss 0.3342
+  batch 800/1472 | Loss 0.3312
+  batch 1000/1472 | Loss 0.3296
+  batch 1200/1472 | Loss 0.3260
+  batch 1400/1472 | Loss 0.3216
+Epoch 3/5 | Train Loss 0.3217 Dice 0.7941 | Val Loss 0.3115 Dice 0.7797
+  batch 200/1472 | Loss 0.3051
+  batch 400/1472 | Loss 0.3046
+  batch 600/1472 | Loss 0.3039
+  batch 800/1472 | Loss 0.3017
+  batch 1000/1472 | Loss 0.3002
+  batch 1200/1472 | Loss 0.2946
+  batch 1400/1472 | Loss 0.2929
+Epoch 4/5 | Train Loss 0.2905 Dice 0.8203 | Val Loss 0.2607 Dice 0.8414
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_3e4\best.pth
+  batch 200/1472 | Loss 0.2668
+  batch 400/1472 | Loss 0.2712
+  batch 600/1472 | Loss 0.2635
+  batch 800/1472 | Loss 0.2628
+  batch 1000/1472 | Loss 0.2622
+  batch 1200/1472 | Loss 0.2595
+  batch 1400/1472 | Loss 0.2582
+Epoch 5/5 | Train Loss 0.2574 Dice 0.8446 | Val Loss 0.2432 Dice 0.8546
+最佳验证权重已保存：D:\Projects\Pytorch_UNet\benchmark\runs\learning_rates_20261022_104847_lr_3e4\best.pth
+实验汇总：benchmark/results.csv；绘图：python plot_benchmark.py

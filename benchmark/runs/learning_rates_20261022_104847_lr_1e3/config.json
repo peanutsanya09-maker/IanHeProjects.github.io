@@ -1,0 +1,29 @@
+{
+  "train": true,
+  "data_root": "D:\\Projects\\Pytorch_UNet\\data\\oxford-iiit-pet",
+  "image_size": 256,
+  "batch_size": 2,
+  "epochs": 5,
+  "lr": 0.001,
+  "seed": 0,
+  "optimizer": "adam",
+  "weight_decay": 0.0,
+  "run_dir": "D:\\Projects\\Pytorch_UNet\\benchmark\\runs\\learning_rates_20261022_104847_lr_1e3",
+  "torch_version": "2.11.0+cu128",
+  "cuda_version": "12.8",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "init": "random",
+  "split_seed": 0,
+  "loss": "CrossEntropyLoss(ignore_index=255)",
+  "augmentation": "none",
+  "precision": "float32",
+  "dice": "global foreground; ignore 255",
+  "timing": "train+validation+checkpoint; excludes initialization; includes logging overhead",
+  "source_sha256": {
+    "unet.py": "7d234094c2a98931cc6006e54549f60a9fa43183af6ab886917165072615535d",
+    "pet_dataset.py": "d468a7e0b126292ee79d218b60a7158ff497b1142740e5c7e247dc91d665aa51",
+    "train_step.py": "45be99f9c65f6526dec33717cc1170e1a533195934e7d8d58086dc60ddcbe98a",
+    "benchmark_log.py": "de774cc083a697c7e97570d40c7e9dcd9f2959cb2afa38f841594f888f13b11b"
+  }
+}
